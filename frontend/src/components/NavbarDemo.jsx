@@ -23,8 +23,8 @@ function Navbar({ className }) {
           {/* Logo - Left side */}
           <div className="shrink-0">
             <Link href="/" legacyBehavior>
-              <a className="w-20 h-16 shadow-lg">
-                <Image src="/images/a.png" alt="Logo" width={80} height={64} />
+              <a className="w-15 h-15 shadow-lg">
+                <Image src="/images/a.png" alt="Logo" width={70} height={44} />
               </a>
             </Link>
           </div>
