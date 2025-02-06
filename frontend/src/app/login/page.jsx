@@ -99,12 +99,6 @@ function LoginPage() {
 
 export default LoginPage;
 
-const LabelInputContainer = ({
-  children,
-  className,
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) => {
+const LabelInputContainer = ({ children, className }) => { // Removed type annotations
   return <div className={cn("flex flex-col space-y-2 w-full", className)}>{children}</div>;
 };
