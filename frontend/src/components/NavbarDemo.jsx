@@ -25,9 +25,9 @@ function Navbar({ className }) {
             <Link href="/" legacyBehavior>
               <a className="w-20 h-16 shadow-lg">
                 <Image
-                  src="/images/a.png" // Make sure path is correct
+                  src="/images/a.png" 
                   alt="Logo"
-                  width={80}  // Adjust width and height as needed
+                  width={80}
                   height={64}
                 />
               </a>
@@ -38,7 +38,7 @@ function Navbar({ className }) {
           <div className="flex md:hidden">
             <button
               type="button"
-              className="text-white" // Or your preferred color
+              className="text-white"
               onClick={() => setExpanded(!expanded)}
               aria-expanded={expanded}
             >
